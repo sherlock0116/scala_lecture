@@ -1,0 +1,36 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle
+**/target/
+/build
+/*/build
+/example/*/build
+/buildSrc/build
+/buildSrc/subprojects/*/build
+
+# IDEA
+/out
+/*/out/
+/example/*/out
+.idea
+*.iml
+/target
+
+settings.xml
+.classpath.txt
+.fullclasspath.txt
+
+# eclipse
+.project
+.buildpath
+.classpath
+.factorypath
+.settings
+.checkstyle
+
+# netbeans
+nb-configuration.xml
+*/nb-configuration.xml
+
+.mvn/wrapper/maven-wrapper.jar
+.DS_Store
+# End .gitignore
