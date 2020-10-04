@@ -11,6 +11,7 @@
     <modules>
         <module>scala-async</module>
         <module>Pragmatic_Scala</module>
+        <module>Functional_Programming_In_Scala</module>
     </modules>
 
     <dependencies>
