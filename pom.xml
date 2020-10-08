@@ -12,6 +12,7 @@
         <module>scala-async</module>
         <module>Pragmatic_Scala</module>
         <module>Functional_Programming_In_Scala</module>
+        <module>Scala_Collection_Handbook</module>
     </modules>
 
     <dependencies>
@@ -20,6 +21,12 @@
             <groupId>com.beachape</groupId>
             <artifactId>enumeratum_2.12</artifactId>
             <version>1.5.15</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>scala-reflect</artifactId>
+                    <groupId>org.scala-lang</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
 
@@ -28,6 +35,12 @@
             <artifactId>scalatest_2.12</artifactId>
             <version>3.1.3</version>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <artifactId>scala-library</artifactId>
+                    <groupId>org.scala-lang</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
     </dependencies>

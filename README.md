@@ -8,5 +8,7 @@
 
 3. Scala_High_Performance_Programming => <<高性能Scala>>
 
+4. Scala_Collection_Handbook => <<Scala 集合技术手册>>
+
 > tips:   Scala程序的管理最好是用 SBT, 但是因为国内网络的问题, SBT的插件下载非常费劲
 >           所以在学习过程中项目管理软件还是用的 Maven
