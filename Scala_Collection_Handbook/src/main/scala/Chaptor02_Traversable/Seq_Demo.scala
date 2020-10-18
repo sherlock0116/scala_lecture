@@ -176,7 +176,7 @@ object Seq_Demo {
 		println(randomSeq.sortWith(_ - _ < 0))							// List(10, 42, 57, 68, 85)
 		
 		/*
-			10. 反转一个序列(该方法会返回新的序列)
+			10. 反转一个序列(函数会返回新的序列)
 			reverse/reverseIterator/reverseMap
 			
 			reverseMap: 除了反转的功能外,还包含映射的功能, 而且它比
@@ -188,9 +188,25 @@ object Seq_Demo {
 		println(seq5.reverseMap(_ * 10))			// List(50, 40, 30, 20, 10)
 		
 		
+		/*
+			11. 集合操作 (函数返回生成新的集合)
+			求交集, 并集, 差集
+			intersect: 交集
+			diff: 差集
+			union: 并集
+			
+		*/
+		val seq_1 = Seq(1 to 5: _*)
+		val seq_2 = Seq(3 to 7: _*)
+		println(seq_1 union seq_2)				// 并集: List(1, 2, 3, 4, 5, 3, 4, 5, 6, 7)
+		println(seq_1 intersect seq_2)		// 交集: List(3, 4, 5)
+		println(seq_1 diff seq_2)				// 差集: List(1, 2)
 		
-		
-		
+		/*
+			12. 去重
+			
+			distinct
+		*/
 		
 	}
 }
