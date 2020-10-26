@@ -13,9 +13,17 @@
         <module>Pragmatic_Scala</module>
         <module>Functional_Programming_In_Scala</module>
         <module>Scala_Collection_Handbook</module>
+        <module>Scala_Cookbook</module>
     </modules>
 
     <dependencies>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>com.beachape</groupId>
@@ -41,6 +49,12 @@
                     <groupId>org.scala-lang</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.nscala-time</groupId>
+            <artifactId>nscala-time_2.12</artifactId>
+            <version>2.22.0</version>
         </dependency>
 
     </dependencies>

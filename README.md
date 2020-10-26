@@ -10,5 +10,9 @@
 
 4. Scala_Collection_Handbook => <<Scala 集合技术手册>>
 
+5. Scala_Cookbook => <<Scala 编程实战>>
+
+6. Programming_In_Scala => <<Scala 编程>>
+
 > tips:   Scala程序的管理最好是用 SBT, 但是因为国内网络的问题, SBT的插件下载非常费劲
 >           所以在学习过程中项目管理软件还是用的 Maven
